@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="google" content="notranslate">
 
-
+    
 
     <title>Sessions - new | Intranet</title>
 
@@ -18,7 +18,7 @@
       <script src="/assets/application-54114f22a70e5f69761998e8ac495fbe3bc128fecc9e13aa1cea5d1b8aa37b6d.js"></script>
       <link rel="shortcut icon" type="image/x-icon" href="/favicon_alx.ico" />
       <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="dtvKoi1-_siTqbtI8hSft8f6YzwZ1k8lxXzIWoUpVrY2B9z02Den6vw7QcGyCSsTbBx7vTbECuP5in_TRxWQzg" />
+<meta name="csrf-token" content="CLHLBtv_1lnyhk0bWRPMQKmJUa4nUAhHXP7esg5yZX3IDlSodiLpYD-IdTxFq8oFe08CgmOEnQVy8XfF3bgHtA" />
 
       <link rel="apple-touch-icon" href="/apple-touch-icon_alx.png">
 
@@ -44,16 +44,16 @@
         translate="no"
         class="notranslate"
         data-theme-suffix="_alx">
-
+    
 
 
     <main>
         <div id="layout-bars">
-
-
-
-
-
+          
+          
+          
+          
+          
         </div>
 
       <article class="">
@@ -63,7 +63,7 @@
   <h2 class="hbtn_logo">
   </h2>
 
-  <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="eg9o38Skb6PjjbPUA-RHxUYLK4U7vtasvWTId7gEdUXaounsWICqOQpLSKehYehKbpAdneCh57hcegd5Rvh-bA" autocomplete="off" />
+  <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QCUlkmBbIy35xSBltwshPOm6GwI6V3LDjzgXIxcyUvCpATFwQ9SYKM_nb-i4ckbclrd7oGAxOB3NgR5EIBNaXA" autocomplete="off" />
 
 
     <div class="field">
