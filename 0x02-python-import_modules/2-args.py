@@ -10,7 +10,7 @@ if __name__ == "__main__":
     elif count == 1:
         print("1 arguments:")
     else:
-        print("{} arguments:".format(count))
+        print("{} argument{}:".format(count, 's' if count != 1 else ''))
     while i in range(count):
         print("{}: {}".format(i + 1, args[i]))
         i += 1
