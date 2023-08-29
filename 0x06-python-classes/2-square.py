@@ -15,6 +15,6 @@ class Square:
             None
         """
         if type(size) is not int:
-            raise TypError("size must be aan integar")
+            raise TypeError("size must be aan integar")
         else:
             self.__size = size
