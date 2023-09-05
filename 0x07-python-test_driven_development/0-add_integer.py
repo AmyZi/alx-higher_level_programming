@@ -16,10 +16,3 @@ def add_integer(a, b=98):
     if type(b) is float:
         b = int(b)
     return a + b
-
-if __name__ == "__main__":
-    # Specify the path to the test file in the 'test' directory.
-    test_file = 'test/0-add_integer.txt'
-
-    # Run the doctests from the specified file.
-    doctest.testfile(test_file, verbose=True)
