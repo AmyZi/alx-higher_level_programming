@@ -21,7 +21,7 @@ def fetch_non_interactive_content(url):
 
 if __name__ == "__main__":
     # Replace with the URL of the web page you want to scrape
-    target_url = "https://example.com"
+    target_url = "https://intranet.alxswe.com/projects/331"
 
     non_interactive_content = fetch_non_interactive_content(target_url)
 
