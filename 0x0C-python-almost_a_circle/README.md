@@ -1,33 +1,125 @@
-#!/usr/bin/python3
+HTML Content:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="google" content="notranslate">
 
-import requests
-from bs4 import BeautifulSoup
+    
 
-def fetch_non_interactive_content(url):
-    # Send a request to the URL
-    response = requests.get(https://intranet.alxswe.com/projects/331)
+    <title>Sessions - new | Intranet</title>
 
-    if response.status_code == 200:
-        # Parse the HTML content using BeautifulSoup
-        soup = BeautifulSoup(response.content, 'html.parser')
+      <link rel="stylesheet" href="https://use.typekit.net/xgz4ilr.css">
+      <link rel="stylesheet" media="all" href="/assets/application_alx-74569621e0a42d001c13ab89b56439fe012151faea39290de037757e4f7aa681.css" />
+      <script src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="/assets/application-5706839fb304956e60447a09b3777f0619be3f1897ac01833392e18931549abd.js"></script>
+      <link rel="shortcut icon" type="image/x-icon" href="/favicon_alx.ico" />
+      <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="BIPQThVG1mghVQkbhL658fu7mmhgC0MjkP0pOC84_8L1hs8yAEvJuPNppNNa2bEmsPxH7s-ANY6lZYuw2Nww8A" />
 
-        # Find and extract the non-interactive content (e.g., text)
-        non_interactive_content = soup.get_text()
+      <link rel="apple-touch-icon" href="/apple-touch-icon_alx.png">
 
-        return non_interactive_content
-    else:
-        print(f"Failed to retrieve content. Status code: {response.status_code}")
-        return None
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
 
-if __name__ == "__main__":
-    # Replace with the URL of the web page you want to scrape
-    target_url = "https://intranet.alxswe.com/projects/331"
+      <!-- Store user timezone -->
+      <script>
+        Cookies.set('timezone', (new Date()).getTimezoneOffset() / -60.0);
+      </script>
 
-    non_interactive_content = fetch_non_interactive_content(target_url)
+      <!-- intro.js for interactive onboarding -->
 
-    if non_interactive_content:
-        # Print or process the non-interactive content as needed
-        print("Non-interactive content:")
-        print(non_interactive_content)
-    else:
-        print("Failed to retrieve non-interactive content.")
+      <!-- React -->
+      <script src="/packs/js/application-9f538f725b9264f19c6a.js"></script>
+      <link rel="stylesheet" media="screen" href="/packs/css/application-87456da7.css" />
+  </head>
+
+  <body class="env_production notranslate"
+        translate="no"
+        class="notranslate"
+        data-theme-suffix="_alx">
+    
+
+
+    <main>
+        <div id="layout-bars">
+          
+          
+          
+          
+          
+          
+        </div>
+
+      <article class="">
+
+        <div class="logged_out_form">
+
+  <h2 class="hbtn_logo">
+  </h2>
+
+  <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LifsVi7kE_meLU5Pgpq_vSW8zb2dQnUdJFGq1D1ooPHRxiFdg1XfQUe_xrMkDvwF9uqVK3h0X7ILlds2N8Y6kg" autocomplete="off" />
+
+
+    <div class="field">
+      <label class="control-label" for="user_email">Email</label><br>
+      <input autofocus="autofocus" class="form-control" type="text" name="user[email]" id="user_email" />
+    </div>
+
+    <div class="field">
+      <label class="control-label" for="user_password">Password</label><br>
+      <input autocomplete="off" class="form-control" type="password" name="user[password]" id="user_password" />
+    </div>
+
+      <div class="field">
+        <input name="user[remember_me]" type="hidden" value="0" autocomplete="off" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+        <label class="control-label" for="user_remember_me">Remember me</label>
+      </div>
+
+    <div class="actions">
+      <input type="submit" name="commit" value="Log in" class="btn btn-primary" data-disable-with="Log in" />
+    </div>
+</form>
+  <ul id="devise_links" class="gap">
+
+
+
+    <li>
+      <a href="/auth/password/new">Forgot your password?</a>
+    </li>
+
+
+    <li>
+      <!--<a href="/auth/unlock/new">Didn&#39;t receive unlock instructions?</a>-->
+    </li>
+
+
+  <!--
+  <li>
+    <a href="https://aka.ms/ssprsetup">Forgot your password?</a>
+  </li>
+  -->
+</ul>
+
+
+</div>
+
+
+      </article>
+
+      <div class="copyright">Copyright © 2023 ALX, All rights reserved.</div>
+
+    </main>
+
+
+
+
+  </body>
+</html>
