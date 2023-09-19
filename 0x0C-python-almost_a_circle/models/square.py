@@ -55,6 +55,7 @@ class Square(Rectangle):
             self.y = args[3]
         except IndexError:
             pass
+
     def __str__(self):
         """
             Overloading str function
